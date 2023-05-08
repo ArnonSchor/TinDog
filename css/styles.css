@@ -1,0 +1,180 @@
+
+
+
+#footer{
+    padding: 5%;
+}
+
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+
+/** Titles**/
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+#title.big-title{
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+h2 {
+    font-size: 3.5rem;
+
+}
+
+h3 {
+
+    margin-top: 20px;
+}
+
+.big-title{
+
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 70px;
+    margin-top: 100px;
+}
+#cta .big-title{
+    padding: 0 20%;
+}
+
+/**navbar**/
+
+.navbar-brand {
+    font-size: 3rem;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+.nav-link {
+    margin: auto 30px;
+    font-size: 20PX;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+/**iphone mockup**/
+
+.iphone-mockup {
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 0;
+    margin: 5% 0 0 7%;
+    width: 20%; 
+}
+@media (max-width: 1200px) {
+    .iphone-mockup {
+        transform: rotate(0);
+        position: static;
+        width: 60%; 
+        text-align: center;
+    }
+}
+
+.download {
+    margin: 5% 3% 5% 0;
+}
+
+/**features**/
+.three-icons {
+    width: 10rem;
+    color: #ef8172;
+    padding: none;
+}
+
+.three-icons:hover {
+    color: #ff4c68;
+}
+
+#features {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    padding: 7% 15%;
+}
+
+.feature-row {
+    margin: auto;
+}
+
+.col-lg-4 {
+    margin: 200px auto;
+}
+
+p {
+    color: #8f8f8f;
+    width: 50%;
+    margin: auto;
+}
+
+
+/**testimonies**/
+.carousel-item {
+    padding: 7% 15%;
+    background-color: #ef8172;
+    color: white;
+}
+
+.press {
+    width: 15%;
+    padding: 20px 20px 50px;
+
+}
+
+#press {
+    background-color: #ef8172;
+
+}
+
+.profile {
+    width: 10%;
+    border-radius: 100%;
+}
+
+#carousel-testimonials {
+    background-color: #ef8172;
+}
+
+.row-cols-1 {
+    margin: auto;
+    width: 80%;
+    line-height: 1.5;
+
+}
+/**pricing**/
+.card.div {
+    padding: 3% 2%;
+
+}
+
+.card {
+    height: 100%;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.links{
+    margin: 2% .70%;
+}
+#cta{
+    padding-top: 100px;
+}
+/**sections**/
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+.white.section{
+    background-color: white;
+}
